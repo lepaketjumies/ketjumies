@@ -1,4 +1,6 @@
 .skills-container {
+  font-size: 1.5em;
+  font-weight: lighter;
   width: 80%;
   margin: 10px 20px 10px 20px;
 }

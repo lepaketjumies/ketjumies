@@ -1,12 +1,13 @@
 import "./App.css";
 import { Header } from "./components/Header";
 import { Skills } from "./components/Skills";
+import { Experience } from "./components/Experience";
+import { About } from "./components/About";
 
 export default function App() {
   return (
     <>
       <Header />
-
       <div className="center-container">
         <div className="intro">
           <p>
@@ -16,13 +17,15 @@ export default function App() {
         </div>
         <div className="divider"></div>
       </div>
+      <About />
       <Skills />
       <div className="center-container">
         <div className="divider"></div>
-      </div>
-      <footer className="footer">
+      </div>{" "}
+      <Experience />
+      {/* <footer className="footer">
         &copy; Ketjumies 2025 All Rights Reserved
-      </footer>
+      </footer> */}
     </>
   );
 }

@@ -1,0 +1,12 @@
+.experience-container {
+  text-align: left;
+  width: 80%;
+}
+.cv-button {
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: var(--accent-color);
+  border: 1px solid black;
+  border-radius: 10px;
+}
