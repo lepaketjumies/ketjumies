@@ -57,10 +57,10 @@ export default function Skills() {
   // };
 
   const colors = {
-    bar: "linear-gradient(to left, rgb(255, 17, 0) , rgb(140, 0, 0))",
+    bar: "linear-gradient(to left, rgb(255, 17, 0) , rgb(139, 1, 130))",
     title: {
       text: "#fff",
-      background: "rgb(153, 0, 0)",
+      background: "rgb(153, 0, 145)",
     },
   };
 

@@ -1,8 +1,9 @@
 import "./App.css";
+import { About } from "./components/About";
+import { Experience } from "./components/Experience";
+import { Education } from "./components/Education";
 import { Header } from "./components/Header";
 import { Skills } from "./components/Skills";
-import { Experience } from "./components/Experience";
-import { About } from "./components/About";
 
 export default function App() {
   return (
@@ -23,6 +24,10 @@ export default function App() {
         <div className="divider"></div>
       </div>{" "}
       <Experience />
+      <div className="center-container">
+        <div className="divider"></div>
+      </div>
+      <Education />
       {/* <footer className="footer">
         &copy; Ketjumies 2025 All Rights Reserved
       </footer> */}

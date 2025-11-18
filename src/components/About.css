@@ -1,5 +1,41 @@
-.image {
+.about-container {
+  width: 60%;
+  display: flex;
+  gap: 30px;
+  height: 100%;
+  align-items: center;
+  font-size: 25px;
+}
+
+.about-container img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
+}
+
+@media (max-width: 980px) {
+  .about-container {
+    width: 80%;
+    font-size: 22px;
+    gap: 20px;
+  }
+
+  .about-container img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-container {
+    flex-direction: column;
+    width: 90%;
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .about-container img {
+    width: 200px;
+    height: 200px;
+  }
 }

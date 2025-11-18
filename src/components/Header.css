@@ -24,17 +24,3 @@ ul.nav-links li a:hover {
   background-color: var(--accent-color);
   padding: 5px 10px;
 }
-@media (max-width: 600px) {
-  header.header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  ul.nav-links {
-    flex-direction: column;
-    width: 100%;
-  }
-  ul.nav-links li {
-    width: 100%;
-    text-align: left;
-  }
-}

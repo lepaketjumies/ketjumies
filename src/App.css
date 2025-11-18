@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   --main-bg-color: #141414;
-  --bg-color2: #ff3300;
+  --bg-color2: #ff00ff;
   --txt-color: #ffffff;
   --txt-color2: #3c3c3c;
-  --accent-color: #f42c04;
+  --accent-color: #f404e8;
 }
 
 body {
