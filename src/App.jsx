@@ -1,5 +1,6 @@
 import "./App.css";
 import { About } from "./components/About";
+import { Contact } from "./components/Contact";
 import { Experience } from "./components/Experience";
 import { Education } from "./components/Education";
 import { Header } from "./components/Header";
@@ -28,9 +29,10 @@ export default function App() {
         <div className="divider"></div>
       </div>
       <Education />
-      {/* <footer className="footer">
+      <Contact />
+      <footer className="footer">
         &copy; Ketjumies 2025 All Rights Reserved
-      </footer> */}
+      </footer>
     </>
   );
 }
