@@ -2,6 +2,8 @@ import Header from "../components/Header";
 import "./Projects.css";
 import Slider from "react-slick";
 import Megis from "../projects/Megis";
+import Megisclicker from "./../assets/project_images/Megis.jpg";
+import Nappi from "./../components/Button.jsx";
 
 export default function Projects() {
   var settings = {
@@ -20,66 +22,35 @@ export default function Projects() {
           <p>Welcome to the Projects page!</p>
         </div>
         <div className="divider"></div>
-      </div>
-      <div className="center-container">
-        <div className="projects-slider">
-          <Slider {...settings}>
-            <div>
-              <h3>
-                <img
-                  src="https://iplaceholder.com/1530x700/ccc/fff/png"
-                  alt="moi"
-                />
-              </h3>
-            </div>
-            <div>
-              <h3>
-                {" "}
-                <img
-                  src="https://iplaceholder.com/1530x700/ccc/fff/png"
-                  alt="moi"
-                />
-              </h3>
-            </div>
-            <div>
-              <h3>
-                {" "}
-                <img
-                  src="https://iplaceholder.com/1530x700/ccc/fff/png"
-                  alt="moi"
-                />
-              </h3>
-            </div>
-            <div>
-              <h3>
-                {" "}
-                <img
-                  src="https://iplaceholder.com/1530x700/ccc/fff/png"
-                  alt="moi"
-                />
-              </h3>
-            </div>
-            <div>
-              <h3>
-                {" "}
-                <img
-                  src="https://iplaceholder.com/1530x700/ccc/fff/png"
-                  alt="moi"
-                />
-              </h3>
-            </div>
-            <div>
-              <h3>
-                {" "}
-                <img
-                  src="https://iplaceholder.com/1530x700/ccc/fff/png"
-                  alt="moi"
-                />
-              </h3>
-            </div>
-          </Slider>
+        <div className="info-container">
+          <p>
+            Megis clicker, a simple clicker game made with React. Originally
+            this game was created with python, improvised from the cookie
+            clicker game. The goal of the game is to click the megis as many
+            times as possible to earn points and kill some time.
+          </p>
         </div>
       </div>
+
+      <div className="center-container">
+        <div className="divider"></div>
+        <h3
+          style={{
+            margin: "0 auto",
+            width: "80%",
+            color: "var(--txt-color)",
+          }}
+        >
+          More info
+        </h3>
+        <Nappi img_src={Megisclicker} />
+        <div className="divider"></div>
+      </div>
+      <h2
+        style={{ margin: "0 auto", color: "var(--accent-color)", width: "80%" }}
+      >
+        Test megis clicker!
+      </h2>
       <Megis />
     </div>
   );

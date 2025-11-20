@@ -13,9 +13,6 @@ export default function Header() {
           <li>
             <a href="/projects">Projects</a>
           </li>
-          <li>
-            <a href="/test">Test</a>
-          </li>
         </ul>
       </nav>
     </header>
