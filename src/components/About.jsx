@@ -1,4 +1,4 @@
-import Lepa from "./../assets/Lepa.jpg";
+import Lepa from "./../assets/Lepa.png";
 import "./About.css";
 
 export default function About() {

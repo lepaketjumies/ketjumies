@@ -20,7 +20,9 @@ export default function Nappi({ img_src }) {
       </div>
 
       <div className={isTrue ? "active" : "inactive"}>
-        <img src={img_src} alt="placeholder" />
+        <div className={isTrue ? "spin" : "no-spin"}>
+          <img src={img_src} alt="placeholder" />
+        </div>
       </div>
     </>
   );

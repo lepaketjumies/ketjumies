@@ -48,19 +48,11 @@ export default function Skills() {
     },
   ];
 
-  // const colors1 = {
-  //   bar: "linear-gradient(to right,rgb(219, 32, 32),rgb(187, 14, 14))",
-  //   title: {
-  //     text: "#fff",
-  //     background: "linear-gradient(to right,rgb(255, 5, 5),rgb(119, 0, 0))",
-  //   },
-  // };
-
   const colors = {
-    bar: "linear-gradient(to left, rgb(255, 17, 0) , rgb(139, 1, 130))",
+    bar: "linear-gradient(to left, rgb(255, 17, 0) , rgb(223, 200, 0))",
     title: {
       text: "#fff",
-      background: "rgb(153, 0, 145)",
+      background: "rgb(245, 220, 0)",
     },
   };
 
