@@ -18,17 +18,55 @@
   color: var(--txt-color);
   cursor: pointer;
 }
+.info-title {
+  margin: 0 auto;
+  width: 80%;
+  color: var(--txt-color);
+}
 .inactive-image {
-  rotate: -90deg;
+  transform: rotate(-90deg);
+  transition: transform 0.3s ease-in-out;
 }
 .active-image {
-  rotate: 0deg;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
 }
 .active {
   width: 80%;
+  height: 100%;
   display: flex;
   justify-content: left;
+  position: relative; /* allow child image to animate in from above */
+  overflow: hidden; /* clip the image until it slides into view */
 }
-.inactive {
-  display: none;
+.active img {
+  width: 100%;
+  height: auto;
+  animation: slideDown 0.45s ease forwards;
+}
+.inactive img {
+  animation: slideUp 0.45s ease forwards;
+  width: 100%;
+  height: 0;
+}
+
+@keyframes slideDown {
+  from {
+    transform: rotate(0deg) translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(0deg) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideUp {
+  from {
+    transform: rotate(0deg) translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: rotate(0deg) translateY(-100%);
+    opacity: 0;
+  }
 }

@@ -5,6 +5,7 @@ import { Experience } from "./components/Experience";
 import { Education } from "./components/Education";
 import { Header } from "./components/Header";
 import { Skills } from "./components/Skills";
+import { Footer } from "./components/Footer";
 
 export default function App() {
   return (
@@ -30,9 +31,7 @@ export default function App() {
       </div>
       <Education />
       <Contact />
-      <footer className="footer">
-        &copy; Ketjumies 2025 All Rights Reserved
-      </footer>
+      <Footer />
     </>
   );
 }

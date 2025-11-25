@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import Megis from "../projects/Megis";
 import Megisclicker from "./../assets/project_images/Megis.jpg";
 import Nappi from "./../components/Button.jsx";
+import Footer from "../components/Footer.jsx";
 
 export default function Projects() {
   var settings = {
@@ -33,16 +34,6 @@ export default function Projects() {
       </div>
 
       <div className="center-container">
-        <div className="divider"></div>
-        <h3
-          style={{
-            margin: "0 auto",
-            width: "80%",
-            color: "var(--txt-color)",
-          }}
-        >
-          More info
-        </h3>
         <Nappi img_src={Megisclicker} />
         <div className="divider"></div>
       </div>
@@ -52,6 +43,18 @@ export default function Projects() {
         Test megis clicker!
       </h2>
       <Megis />
+      <div className="center-container">
+        <div className="divider"></div>
+        <div className="info-container">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
+            deserunt delectus soluta ducimus nostrum illum explicabo animi,
+            consequatur omnis sint voluptas temporibus quod maxime atque fuga
+            error natus saepe itaque.
+          </p>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }

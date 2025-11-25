@@ -9,6 +9,9 @@ export default function Nappi({ img_src }) {
   };
   return (
     <>
+      <div className="divider"></div>
+      <h3 className="info-title">More info</h3>
+
       <div className="toggle-container">
         <button onClick={handleSwitch}>
           <img
@@ -20,9 +23,7 @@ export default function Nappi({ img_src }) {
       </div>
 
       <div className={isTrue ? "active" : "inactive"}>
-        <div className={isTrue ? "spin" : "no-spin"}>
-          <img src={img_src} alt="placeholder" />
-        </div>
+        <img src={img_src} alt="placeholder" />
       </div>
     </>
   );
