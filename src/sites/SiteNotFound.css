@@ -1,0 +1,10 @@
+.not-found-container {
+  height: 80vh;
+  align-items: center;
+  display: flex;
+}
+.not-found-container img {
+  height: 300px;
+  width: 300px;
+  opacity: 0.5;
+}

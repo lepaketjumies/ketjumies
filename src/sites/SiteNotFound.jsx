@@ -1,10 +1,19 @@
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+import "./SiteNotFound.css";
+import Error from "./../assets/error.png";
 
 export default function SiteNotFound() {
   return (
     <>
       <Header />
-      <h1>Site was not found</h1>
+      <div className="center-container">
+        <div className="not-found-container">
+          <img src={Error} alt="kuva" />
+          <h1>Site was not found</h1>
+        </div>
+      </div>
+      <Footer />
     </>
   );
 }
