@@ -5,6 +5,9 @@
   width: 100%;
   margin-top: 20px;
 }
+.megis-button {
+  border: none;
+}
 .megis-container img {
   width: 100%;
   height: 400px;

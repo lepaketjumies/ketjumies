@@ -24,3 +24,13 @@
   height: 24px;
   margin-right: 10px;
 }
+@media (max-width: 900px) {
+  .contact-container ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .contact-container ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

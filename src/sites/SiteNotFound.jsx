@@ -10,7 +10,7 @@ export default function SiteNotFound() {
       <div className="center-container">
         <div className="not-found-container">
           <img src={Error} alt="kuva" />
-          <h1>Site was not found</h1>
+          <h1>Error 404: Site was not found</h1>
         </div>
       </div>
       <Footer />

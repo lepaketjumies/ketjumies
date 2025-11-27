@@ -12,7 +12,7 @@ export default function Megis() {
   };
   return (
     <div className="megis-container">
-      <button onClick={handleClick}>
+      <button onClick={handleClick} className="megis-button">
         <img src={Megiskuva} alt="megis" />
       </button>
       <p>{count < 1 ? "Button has not been pressed" : `Count: ${count}`}</p>

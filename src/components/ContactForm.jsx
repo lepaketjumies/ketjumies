@@ -9,6 +9,7 @@ export default function ContactForm() {
 
   //Määritetään funcktio, joka lähettää tiedot Discordiin webhookin kautta
   const sendToDiscord = async () => {
+    setIsTrue(false);
     const webhookUrl = import.meta.env.VITE_DISCORD_WEBHOOK_URL;
     console.log("Webhook URL:", webhookUrl);
     //Määritetään kokonaisuus, joka lähetetään Discordiin
@@ -59,40 +60,59 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="test-container">
-      <div>
-        <p>
-          Please input your email, and our customer service agent will contact
-          you shortly.
-        </p>
+    <div>
+      <div className="container">
+        {isTrue === true ? (
+          <button onClick={() => setIsTrue(true)}>Contact Me</button>
+        ) : (
+          <button onClick={handleSwitch}>Contact Me</button>
+        )}
       </div>
-      <div className="discord-webhook">
-        <input
-          value={username}
-          //Tallennetaan tiedot muuttujaan käyttäjän syöttäessä niitä
-          onChange={(e) => {
-            setUsername(e.target.value);
-          }}
-          //Enteriä painamalla lähetetään viesti (vain jos käyttäjä on sähköpostikentässä)
-          onKeyDown={(e) => {
-            if (e.key === "Enter") {
-              e.preventDefault();
-              sendToDiscord();
-            }
-          }}
-          type="email"
-          placeholder="email (required)"
-          required
-        />
-        <input
-          value={message}
-          onChange={(e) => {
-            setMessage(e.target.value);
-          }}
-          placeholder="message (required)"
-          required
-        />
-        <button onClick={sendToDiscord}>Send</button>
+      <div
+        className="test-container"
+        style={isTrue === false ? { display: "none" } : { display: "flex" }}
+      >
+        <div className="close-container-button">
+          <button
+            onClick={() => {
+              setIsTrue(false);
+            }}
+          >
+            Close
+          </button>
+        </div>
+        <div>
+          <p>
+            Please input your email, and our customer service agent will contact
+            you shortly.
+          </p>
+        </div>
+        <div className="discord-webhook">
+          <input
+            value={username}
+            onChange={(e) => {
+              setUsername(e.target.value);
+            }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                e.preventDefault();
+                sendToDiscord();
+              }
+            }}
+            type="email"
+            placeholder="email (required)"
+            required
+          />
+          <input
+            value={message}
+            onChange={(e) => {
+              setMessage(e.target.value);
+            }}
+            placeholder="message (required)"
+            required
+          />
+          <button onClick={sendToDiscord}>Send</button>
+        </div>
       </div>
     </div>
   );
