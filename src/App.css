@@ -1,15 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   --bg-color: #141414;
-  --bg-color2: #ffd000;
+  --bg-color2: #0059ff;
   --txt-color: #ffffff;
   --txt-color2: #3c3c3c;
-  --accent-color: #f4e404;
+  --accent-color: #0488f4;
 }
 
 body {
   margin: 0;
   font-family: "Archivo", monospace, helvetica, sans-serif;
+  background-image: url("./assets/bgimage.png");
   background-color: var(--bg-color);
   color: var(--txt-color);
 }

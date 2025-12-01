@@ -95,6 +95,17 @@ export default function Projects() {
         </div>
         <Nappi img_src={Servu} />
         <div className="divider"></div>
+        <div className="info-container">
+          <h3>Project 4</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo optio
+            molestiae minus omnis distinctio quia officia consequatur, voluptas,
+            amet voluptate ratione dolorem sit sed. Doloremque mollitia ab
+            reiciendis adipisci accusantium.
+          </p>
+        </div>
+        <Nappi img_src={"https://iplaceholder.com/300x300/fff/ccc/png"} />
+        <div className="divider"></div>
       </div>
       <Footer />
     </div>

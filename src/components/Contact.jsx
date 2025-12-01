@@ -24,19 +24,33 @@ export default function Contact() {
           </li>
           <li>
             <img src={Linkedin} alt="linkedin" />
-            <span>lepaketjumies</span>
+            <span>
+              <a href="https://www.linkedin.com/in/lepaketjumies">
+                lepaketjumies
+              </a>
+            </span>
           </li>
           <li>
             <img src={Facebook} alt="facebook" />
-            <span>lepaketjumies</span>
+            <span>
+              <a href="https://www.facebook.com/profile.php?id=100091602912843">
+                lepaketjumies
+              </a>
+            </span>
           </li>
           <li>
             <img src={Github} alt="Github" />
-            <span>lepaketjumies</span>
+            <span>
+              <a href="https://github.com/lepaketjumies">lepaketjumies</a>
+            </span>
           </li>
           <li>
             <img src={Instagram} alt="instagram" />
-            <span>lepaketjumies</span>
+            <span>
+              <a href="https://www.instagram.com/lepaketjumies/">
+                lepaketjumies
+              </a>
+            </span>
           </li>
           <li>
             <img src={X} alt="X" />

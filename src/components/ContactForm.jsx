@@ -69,7 +69,7 @@ export default function ContactForm() {
         )}
       </div>
       <div
-        className="test-container"
+        className="contactform-container"
         style={isTrue === false ? { display: "none" } : { display: "flex" }}
       >
         <div className="close-container-button">

@@ -49,10 +49,10 @@ export default function Skills() {
   ];
 
   const colors = {
-    bar: "linear-gradient(to left, rgb(255, 17, 0) , rgb(223, 200, 0))",
+    bar: "linear-gradient(to left, rgb(174, 0, 255) , rgb(6, 97, 216))",
     title: {
       text: "#fff",
-      background: "rgb(245, 220, 0)",
+      background: "rgb(0, 106, 245)",
     },
   };
 
