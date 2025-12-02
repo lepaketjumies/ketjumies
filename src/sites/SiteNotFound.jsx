@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "./SiteNotFound.css";
-import virhe from "./../assets/error.png";
+import virhe from "./../assets/virhe.png";
 
 export default function SiteNotFound() {
   return (
