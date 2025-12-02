@@ -52,10 +52,6 @@ export default function Contact() {
               </a>
             </span>
           </li>
-          <li>
-            <img src={X} alt="X" />
-            <span>lepaketjumies</span>
-          </li>
         </ul>
       </div>
       <div>

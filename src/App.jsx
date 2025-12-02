@@ -15,7 +15,7 @@ export default function App() {
         <div className="intro">
           <p>
             Hi, <br />
-            I'm <span>Lepa</span>
+            I'm <span>Lenni</span>
           </p>
         </div>
         <div className="divider"></div>

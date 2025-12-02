@@ -23,6 +23,8 @@ export default function Skills() {
       type: "Node.js",
       level: 70,
     },
+    { type: "Python", level: 65 },
+    { type: "Adobe", level: 40 },
   ];
 
   const skills2 = [

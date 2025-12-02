@@ -1,6 +1,6 @@
 .not-found-container {
-  /* height: 80vh; */
   margin-top: 10%;
+  padding: 10px 20px;
   align-items: center;
   display: flex;
   background-color: rgba(0, 0, 0, 0.2);

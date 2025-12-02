@@ -82,10 +82,7 @@ export default function ContactForm() {
           </button>
         </div>
         <div>
-          <p>
-            Please input your email, and our customer service agent will contact
-            you shortly.
-          </p>
+          <p>Please send me an email if you wish to contact me.</p>
         </div>
         <div className="discord-webhook">
           <input

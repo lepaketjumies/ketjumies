@@ -5,6 +5,8 @@ import Peli from "./../assets/project_images/peli.png";
 import Megis from "../projects/Megis";
 import Megisclicker from "./../assets/project_images/Megis.jpg";
 import Servu from "./../assets/project_images/server.png";
+import Components from "./../assets/project_images/components.png";
+import Vaatteet from "./../assets/project_images/Kuvakollaasi.png";
 import Nappi from "./../components/Button.jsx";
 import Footer from "../components/Footer.jsx";
 
@@ -98,13 +100,36 @@ export default function Projects() {
         <div className="info-container">
           <h3>Project 4</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo optio
-            molestiae minus omnis distinctio quia officia consequatur, voluptas,
-            amet voluptate ratione dolorem sit sed. Doloremque mollitia ab
-            reiciendis adipisci accusantium.
+            For my fourth project, I wanted to try something different than just
+            using Wordpress, so I ended up making my own eportfolio from scatch
+            using JavaScript framework React. I broke the files down into
+            components, such as Header, Footer, Contact form and Button
+            components. This way I can easily reuse the components in different
+            parts of my portfolio, and also keep the code organized and easy to
+            maintain.
           </p>
         </div>
-        <Nappi img_src={"https://iplaceholder.com/300x300/fff/ccc/png"} />
+        <Nappi img_src={Components} />
+        <div className="divider"></div>
+        <div className="info-container">
+          <h3>Project 5</h3>
+          <p>
+            For my fifth project, I made a clothing set for a fictional mafia,
+            that I play as in the game Grand Theft Auto V. I edited the textures
+            using Adobe Photoshop, and then imported them into the game using a
+            modding tool called OpenIV.
+          </p>
+          <p>
+            The logo that you can see on the bottom right corner, was made with
+            Canva.
+          </p>
+          <p>
+            This image showcases custom texture work created by me. Base
+            character models and original assets belong to Rockstar Games /
+            Take-Two Interactive.
+          </p>
+        </div>
+        <Nappi img_src={Vaatteet} />
         <div className="divider"></div>
       </div>
       <Footer />
