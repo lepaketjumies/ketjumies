@@ -3,7 +3,7 @@ import "./Projects.css";
 import UnityGame from "./../assets/2d_unity_peli.mp4";
 import Peli from "./../assets/project_images/peli.png";
 import Megis from "../projects/Megis";
-import Megisclicker from "./../assets/project_images/Megis.jpg";
+import Megisclicker from "./../assets/project_images/megis.jpg";
 import Servu from "./../assets/project_images/server.png";
 import Components from "./../assets/project_images/components.png";
 import Vaatteet from "./../assets/project_images/kuvakollaasi.png";
