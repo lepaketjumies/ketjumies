@@ -1,6 +1,5 @@
 {
   "name": "lepa-portfolio",
-  "homepage": "https://eportfoliot.redu.fi/eportfoliot/lennikamalainen",
   "private": true,
   "version": "0.0.0",
   "type": "module",

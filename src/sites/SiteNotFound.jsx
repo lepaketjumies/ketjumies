@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "./SiteNotFound.css";
-import Error from "./../assets/error.png";
+import virhe from "./../assets/error.png";
 
 export default function SiteNotFound() {
   return (
@@ -9,7 +9,7 @@ export default function SiteNotFound() {
       <Header />
       <div className="center-container">
         <div className="not-found-container">
-          <img src={Error} alt="kuva" />
+          <img src={virhe} alt="kuva" />
           <h1>Error 404: Site was not found</h1>
         </div>
       </div>

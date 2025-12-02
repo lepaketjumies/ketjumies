@@ -6,7 +6,7 @@ import Megis from "../projects/Megis";
 import Megisclicker from "./../assets/project_images/Megis.jpg";
 import Servu from "./../assets/project_images/server.png";
 import Components from "./../assets/project_images/components.png";
-import Vaatteet from "./../assets/project_images/Kuvakollaasi.png";
+import Vaatteet from "./../assets/project_images/kuvakollaasi.png";
 import Nappi from "./../components/Button.jsx";
 import Footer from "../components/Footer.jsx";
 
