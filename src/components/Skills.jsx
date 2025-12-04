@@ -24,7 +24,7 @@ export default function Skills() {
       level: 70,
     },
     { type: "Python", level: 65 },
-    { type: "Adobe", level: 40 },
+    { type: "Adobe", level: 25 },
   ];
 
   const skills2 = [
@@ -35,14 +35,6 @@ export default function Skills() {
     {
       type: "Finnish",
       level: 100,
-    },
-    {
-      type: "Spanish",
-      level: 10,
-    },
-    {
-      type: "German",
-      level: 15,
     },
     {
       type: "Swedish",

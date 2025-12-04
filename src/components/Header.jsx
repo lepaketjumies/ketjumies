@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="header">
       <h1>Portfolio</h1>
-      <nav className="nav">
+      {/* <nav className="nav">
         <ul className="nav-links">
           <li>
             <a href="/eportfoliot/lennikamalainen/">Home</a>
@@ -13,7 +13,7 @@ export default function Header() {
             <a href="/eportfoliot/lennikamalainen/projects">Projects</a>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </header>
   );
 }
