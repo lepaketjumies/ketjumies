@@ -7,8 +7,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import SiteNotFound from "./sites/SiteNotFound.jsx";
 
 const router = createBrowserRouter([
-  { path: "/", element: <App /> },
-  { path: "/projects", element: <Projects /> },
+  { path: "/eportfoliot/lennikamalainen/", element: <App /> },
+  { path: "/eportfoliot/lennikamalainen/projects", element: <Projects /> },
   { path: "*", element: <SiteNotFound /> },
 ]);
 createRoot(document.getElementById("root")).render(
