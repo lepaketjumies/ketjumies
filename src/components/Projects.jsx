@@ -13,6 +13,7 @@ export default function Projects() {
     <div>
       <div className="center-container">
         <div className="projects-header">
+          <div className="divider"></div>
           <h2>Projects</h2>
           <p>Welcome to the Projects page!</p>
         </div>
