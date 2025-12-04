@@ -54,9 +54,6 @@ export default function Contact() {
           </li>
         </ul>
       </div>
-      <div>
-        <ContactForm />
-      </div>
 
       <div className="divider"></div>
     </div>
