@@ -1,5 +1,4 @@
 import "./Header.css";
-import SkillBar from "react-skillbars";
 
 export default function Header() {
   return (
