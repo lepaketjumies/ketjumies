@@ -7,10 +7,10 @@ export default function Header() {
       <nav className="nav">
         <ul className="nav-links">
           <li>
-            <a href="/">Home</a>
+            <a href="/eportfoliot/lennikamalainen/">Home</a>
           </li>
           <li>
-            <a href="/projects">Projects</a>
+            <a href="/eportfoliot/lennikamalainen/projects">Projects</a>
           </li>
         </ul>
       </nav>
