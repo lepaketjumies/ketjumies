@@ -1,6 +1,6 @@
 .toggle-container {
   display: flex;
-  width: 80%;
+  width: 71%;
   justify-content: left;
   gap: 8px;
 }
@@ -20,7 +20,7 @@
 }
 .info-title {
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
   color: var(--txt-color);
 }
 .inactive-image {
@@ -35,12 +35,12 @@
   width: 80%;
   height: 100%;
   display: flex;
-  justify-content: left;
-  position: relative; /* allow child image to animate in from above */
-  overflow: hidden; /* clip the image until it slides into view */
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
 .active img {
-  width: 100%;
+  width: 80%;
   height: auto;
   animation: slideDown 0.45s ease forwards;
 }

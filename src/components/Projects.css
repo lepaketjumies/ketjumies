@@ -1,5 +1,5 @@
 .projects-header {
-  width: 75%;
+  width: 80%;
   text-align: left;
   font-size: 1.5rem;
 }
@@ -15,5 +15,10 @@
 }
 .info-container {
   width: 75%;
+}
+.info-container h3 {
+  font-size: 30px;
+}
+.info-container p {
   font-size: 20px;
 }
